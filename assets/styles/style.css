@@ -1,0 +1,170 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+/* navbar styling starts here */
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav .primary-links a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+nav i {
+  font-size: 20px;
+}
+
+nav .social-links a:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* hero section starts here */
+
+.hero-section {
+  position: relative;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hero-section img {
+  max-width: 375px;
+}
+
+.hero-section h6 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-section p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  max-width: 300px;
+}
+
+.hero-section .fw-bold:nth-child(4) {
+  margin-bottom: 90px;
+}
+
+.hero-section .back,
+.hero-section .front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section .back {
+  padding: 14px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 300px;
+}
+
+.hero-section .flip-image {
+  height: 540px;
+  width: 375px;
+}
+
+.advantages-section {
+  margin: 150px 0px;
+}
+
+.work-section ul.filterizr-controls {
+  list-style-type: none;
+  text-align: center;
+}
+
+.work-section ul.filterizr-controls li {
+  display: inline-block;
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+.work-section ul.filterizr-controls li.active {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.work-section .filtr-item {
+  padding: 100px 20px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+
+.work-section .filtr-item:hover .overlay{
+  transform: translateX(0px);
+  transition: all ease-in-out 0.5s;
+}
+
+.work-section .filtr-item img {
+  max-width: 300px;
+}
+
+.work-section .overlay{
+  position: absolute;
+  height: 65%;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  transform: translateX(-120%);
+  transition: all ease-in-out 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer{
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 70px 0px;
+}
+
+footer ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+footer ul li{
+  display: inline-block;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin: 30px 20px;
+  font-size: 24px;
+}
+
+footer ul li a:hover{
+  color: white;
+}
+
+footer .social-links{
+  text-align: center;
+}
+
+footer .social-links a{
+  text-decoration: none;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 10px 30px;
+  background: white;
+  border-radius: 4px;
+  padding: 5px;
+  
+}
+
+
